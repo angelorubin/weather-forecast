@@ -1,3 +1,73 @@
+![weater-forecast](https://i.imgur.com/EoeZHDc.png)
+
+# Weather Forecast
+
+An online demo can be found [here](http://www.weather-forecast-angelo-rubin.surge.sh).
+
+A SPA ( [single page application](https://goo.gl/pJE6Eq) ) based on Yahoo weather forecasting API and developed with [React.js](https://reactjs.org) to fetch and display the weather forecast ( for five days ) through name of the city.
+
+It also has a list of 10 capitals:
+
+* Rio de janeiro
+* São Paulo
+* Belo Horizonte
+* Brasília
+* Belém
+* Salvador
+* Curitiba
+* Fortaleza
+* Manaus
+* João Pessoa
+
+With the minimum and maximum temperature forecast for each.
+
+## Technologies Used
+
+* [React.js](https://reactjs.org)
+* [Styled Components](https://www.styled-components.com)
+* [Weather API ( Yahoo )](https://developer.yahoo.com/weather)
+
+## Basic requirements
+
+You must have:
+
+* [Node.js](https://nodejs.org/en)
+* [Npm](https://docs.npmjs.com/getting-started/what-is-npm) or [Yarn](https://yarnpkg.com/pt-BR)
+* [Git](https://git-scm.com)
+* [Github](https://github.com)
+
+## How to install
+
+The project can be copied directly from github through this [link](https://github.com/angelorubin/weather-forecast).
+
+A second option is to install it through the terminal (console) of your computer.
+
+Open the terminal of your choice and enter the following command:
+
+> git clone https://github.com/angelorubin/weather-forecast.git
+
+This way the project will be cloned to your computer.
+
+Then to install the project dependencies, enter the following command:
+
+> npm i
+
+After installing the dependencies, type the following command to start the project.
+
+> npm start
+
+The project will open automatically in your browser set as primary.
+
+## TO-DO
+
+* Implement Tests
+
+## How to help
+
+Any criticism, suggestion or help is welcome, feel free to collaborate.
+
+## Project Configurations
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
