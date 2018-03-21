@@ -2,7 +2,7 @@
 
 # Weather Forecast
 
-An online demo can be found [here](http://www.weather-forecast-angelorubin.surge.sh).
+An online demo can be found [here](https://weather-forecast-angelorubin.herokuapp.com).
 
 A SPA ( [single page application](https://goo.gl/pJE6Eq) ) based on Yahoo weather forecasting API and developed with [React.js](https://reactjs.org) to fetch and display the weather forecast ( for five days ) through name of the city.
 
