@@ -23,12 +23,14 @@ class Search extends Component {
             show: false
         }
     }
-    searchHandler = event => {
-        searchCity(event.target.value)
-        .then( data => {
-            this.setState({ searchData: data.data.query.results.channel, show: true })
-        })
-        .catch( error => console.log(error))
+    handleSearch = e => {
+        if(e.key === 'Enter') {
+            searchCity(e.target.value)
+            .then( data => {
+                this.setState({ searchData: data.data.query.results.channel, show: true })
+            })
+            .catch( error => console.log(error))
+        }
     }
     componentDidUpdate(){
         // console.log(this.state.searchData.location)
@@ -37,12 +39,15 @@ class Search extends Component {
         return (
             <StyledSearch>
                 {
-                    this.state.show ? <City searchData={this.state.searchData}/> : false
+                    this.state.show 
+                    ? 
+                    <City searchData={this.state.searchData}/> 
+                    : false
                 }
                 <StyledInput
                     type="text"
                     placeholder="Insira aqui o nome da cidade"
-                    onBlur={this.searchHandler}
+                    onKeyPress={this.handleSearch}
                 />
             </StyledSearch>
         )
